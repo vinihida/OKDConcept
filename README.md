@@ -1,4 +1,4 @@
-# FastAPI OKD POC (KISS)
+# OKD POC
 
 Prova de conceito simples para demonstrar:
 
