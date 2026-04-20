@@ -1,0 +1,84 @@
+{
+  "info": {
+    "_postman_id": "3f9f5a8d-2b52-4f9b-98f2-5c8b37dc2a1f",
+    "name": "OKDConcept - FastAPI POC",
+    "description": "Collection simples para testar os endpoints da POC FastAPI em OKD.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Root - GET /",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Health - GET /health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Env - GET /env",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/env",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "env"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Counter - GET /counter",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/counter",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "counter"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000"
+    }
+  ]
+}
